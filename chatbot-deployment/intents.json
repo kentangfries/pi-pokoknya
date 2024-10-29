@@ -1,0 +1,521 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai",
+        "halo",
+        "helo",
+        "hei",
+        "hi",
+        "hola",
+        "hai ibot",
+        "halo ibot",
+        "helo ibot",
+        "hi ibot",
+        "hola ibot",
+        "pagi",
+        "morning",
+        "siang",
+        "malam"
+      ],
+      "responses": [
+        "Hai, ada yang bisa iBot bantu?",
+        "Halo! Saya ibot, salam kenal ya! Mau tau tentang kampus merdeka, kan?",
+        "Helo! Ini ibot. Lagi kepo tentang kampus merdeka ya?"
+      ]
+    },
+    {
+      "tag": "siapa_ibot",
+      "patterns": [
+        "Siapa iBot?",
+        "iBot itu apa?",
+        "siapa itu ibot?"
+      ],
+      "responses": [
+        "iBot adalah aplikasi chatbot informasi tentang Kampus Merdeka yang dimulai dari pelaksanaan, persyaratan dan program yang berada di Kampus Merdeka!",
+        "iBot itu adalah teman informasi kamu tentang Kampus Merdeka!"
+      ]
+    },
+    {
+      "tag": "siapa_pencipta_pembuat_ibot",
+      "patterns": [
+        "siapa pembuatmu?",
+        "siapa pembuat iBot?",
+        "siapa yang menciptakan iBot?",
+        "siapa pencipta ibot?",
+        "siapa yang menciptakan kamu?"
+      ],
+      "responses": [
+        "iBot diciptakan oleh mahasiswa dari program Kampus Merdeka yang memiliki ide kreatif ",
+        "Pembuat iBot dari kalangan mahasiswa",
+        "Penciptaku berasal dari seorang mahasiswa kreatif, sehingga iBot bisa aktif saat ini!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Dadah",
+        "Byee",
+        "bye",
+        "Good bye",
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "See you"
+      ],
+      "responses": [
+        "Bye!",
+        "Dadahh!",
+        "Good bye!",
+        "Dahh, semoga harimu Senin terus!",
+        "See u! Senang bisa membantu"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak"
+      ],
+      "responses": [
+        "Dengan senang hati :)",
+        "Sama-sama yaa",
+        "Ok, sama-sama"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_merdeka",
+      "patterns": [
+        "Apa itu Kampus Merdeka?",
+        "apa pengertian dari kampus merdeka?",
+        "apa yang dimaksud dengan kampus merdeka?",
+        "jelaskan apa itu kampus merdeka",        
+        "apa itu kampus merdeka?",
+        "kampus merdeka itu apa ya?"
+      ],
+      "responses": [
+        "Kampus Merdeka merupakan kebijakan Menteri Pendidikan dan Kebudayaan Nadiem Makarim yang membebaskan mahasiswa untuk mengikuti kegiatan di luar program studinya selama 1 semester atau setara 20 sks dan paling lama 2 semester atau setara 40 sks."
+      ]
+    },
+    {
+      "tag": "tujuan_kampus_merdeka",
+      "patterns": [
+        "Apa tujuan Kampus Merdeka?",
+        "apa tujuan kampus merdeka?",
+        "apa tujuan dari kampus merdeka?",
+        "apa tujuan dari program kampus merdeka?",
+        "jelaskan tujuan kampus",
+        "tujuan dari program kampus merdeka"
+      ],
+      "responses": [
+        "Tujuan kebijakan Kampus Merdeka adalah memberikan kesempatan kepada mahasiswa untuk memilih mata kuliah yang akan mereka tempuh berdasarkan keinginan sendiri serta mendorong mahasiswa meningkatkan soft skills serta hard skills agar siap bersaing dalam dunia global."
+      ]
+    },
+    {
+      "tag": "persyaratan_kampus_merdeka",
+      "patterns": [
+        "apa saja persyaratan ikut kampus merdeka?",
+        "apa saja persyaratan daftar kampus merdeka?",
+        "apa saja persyaratan kampus merdeka?",
+        "persyaratan apa saja ikut kampus merdeka?",
+        "apa saja syarat ikut kampus merdeka?",
+        "syarat yang diperlukan program kampus merdeka?"
+      ],
+      "responses": [
+        "Persyaratan mengikuti program Kampus Merdeka, yaitu merupakan mahasiswa yang berasal dari Program Studi terakreditasi dan terdaftar aktif pada PDDikti."
+      ]
+    },
+    {
+      "tag": "program_kampus_merdeka",
+      "patterns": [
+        "program dari kampus merdeka",
+        "apa saja program yang ada dikampus merdeka?",
+        "apa saja program kampus merdeka?",
+        "program yang ada dikampus merdeka",
+        "program apa saja yang ada di kampus merdeka?"
+      ],
+      "responses": [
+        "programnya adalah Studi Independen, Magang Bersertifikat, Kampus Mengajar, IISMA, Pertukaran Mahasiswa Merdeka, dan Wirausaha Merdeka"
+      ]
+    },
+    {
+      "tag": "penjelasan_studi_independen",
+      "patterns": [
+        "apa itu studi independen?",
+        "Apa itu studi independen?",
+        "jelaskan tentang studi independen",
+        "studi independen itu apa ya?"
+      ],
+      "responses": [
+        "Studi Independen salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri"
+      ]
+    },
+    {
+      "tag": "persyaratan_studi_independen_stupen",
+      "patterns": [
+        "apa saja persyaratan studi independen?",
+        "apa saja persyaratan dari studi independen?",
+        "persyaratan dari stupen apa saja ya?",
+        "pesyaratan yang dibutuhkan stupen?",
+        "persyaratan dari studi independen apa saja ya?",
+        "syarat yang diperlukan untuk program studi independen?"
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "periode_studi_independen_stupen",
+      "patterns": [
+        "bagaimana periode pelaksanaan program studi independen?",
+        "periode dari program studi independen"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 2 semester"
+      ]
+    },
+    {
+      "tag":"pendaftaran_studi_independen_stupen",
+      "patterns": [
+        "bagaimana cara mendaftar studi independen?",
+        "cara mendaftar program stupen",
+        "bagaimana cara daftar program studi independen?"
+      ],
+      "responses": [
+       "Cara mendaftarnya dengan mengunjungi website https://kampusmerdeka.kemdikbud.go.id/program/studi-independen" 
+      ]
+    },
+    {
+      "tag": "manfaat_studi_independen",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti studi independen?",
+        "apa saja manfaat ikut studi independen?",
+        "manfaat ikut program studi independen",
+        "apa manfaat dari program studi independen?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
+      ]
+    },
+    {
+      "tag": "mitra_studi_independen",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Studi Independen?",
+        "apa saja mitra yang ada pada program studi independen?",
+        "mitra yang tergabung dalam program stupen",
+        "mitra yang tergabung dalam program studi independen"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Orbit Future Academy, Microsoft Indonesia, Ruang Guru, Zenius, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse"
+      ]
+    },
+    {
+      "tag": "penjelasan_magang",
+      "patterns": [
+        "Apa itu Magang Bersertifikat?",
+        "apa itu magang bersertifikat?",
+        "jelaskan program magang ini?",
+        "jelaskan program magang bersertifikat?"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills."
+      ]
+    },
+    {
+      "tag": "persyaratan_magang_bersertifikat",
+      "patterns": [
+        "Apa saja persyaratan Magang Bersertifikat?",
+        "persyaratan mengikuti program magang?",
+        "apa saja syarat daftar magang bersertifikat?",
+        "apa saja persyaratan ikut magang bersertifikat?",
+        "persyaratan ikut program magang bersertifikat?"
+        
+      ],
+      "responses": [
+        "Tidak ada persyaratan khusus. Seluruh mahasiswa dari perguruan tinggi dan program studi apapun dapat mengikuti program sesuai persyaratan setiap mitra"
+      ]
+    },
+    {
+      "tag": "periode_magang_bersertifikat",
+      "patterns": [
+        "Bagaimana periode pelaksanaan magang?",
+        "bagaimana periode dari program magang bersertifikat?",
+        "periode program magang bersertifikat"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 hingga 3 semester"
+      ]
+    },
+    {
+      "tag":"pendaftaran_magang_bersertifikat",
+      "patterns": [
+        "bagaimana cara mendaftar magang bersertifikat?",
+        "cara mendaftar program magang bersertifikat",
+        "bagaimana cara daftar program magang bersertifikat?",
+        "bagaimana cara daftar program magang?",
+        "cara daftar program magang itu gimana?"
+      ],
+      "responses": [
+       "Cara mendaftarnya dengan mengunjungi website https://kampusmerdeka.kemdikbud.go.id/program/magang" 
+      ]
+    },
+    {
+      "tag": "manfaat_magang_bersertifikat",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Magang Bersertifikat?",
+        "manfaat yang didapat dari program magang?",
+        "apa saja manfaat jika ikut magang bersertifikat?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi hingga 20 sks, dibimbing mentor staf profesional secara full-time, sertifikasi sesuai kinerja, dan uang saku serta biaya hidup selama magang"
+      ]
+    },
+    {
+      "tag": "mitra_magang",
+      "patterns": [
+        "Apa saja mitra yang tergabung dalam Magang Bersertifikat?",
+        "mitra yang tergabung pada program magang",
+        "mitra apa saja yang ada di program magang?",
+        "mitra apa saja yang ada di program magang bersertifikat?"
+      ],
+      "responses": [
+        "Mitra yang tergabung seperti Telkom Indonesia, XL Axiata, MAP, Bank BRI, Shopee, Tokopedia, Traveloka, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/magang/browse"
+      ]
+    },
+    {
+      "tag": "penjelasan_kampus_mengajar",
+      "patterns": [
+        "Apa itu Kampus Mengajar?",
+        "apa itu kampus mengajar?",
+        "jelaskan tentang kampus mengajar",
+        "kampus mengajar itu apa ya?"
+      ],
+      "responses": [
+        "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil"
+      ]
+    },
+    {
+      "tag": "persyaratan_kampus_mengajar",
+      "patterns": [
+        "apa saja persyaratan kampus mengajar?",
+        "apa saja syarat ikut program kampus mengajar?",
+        "syarat dari program kampus mengajar"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4, memiliki IPK minimum 3.00, memiliki pengalaman mengajar maupun berorganisasi, memperoleh surat rekomendasi dari Perguruan tinggi, serta belum pernah mengikuti program Kampus Mengajar"
+      ]
+    },
+    {
+      "tag": "periode_kampus_mengajar",
+      "patterns": [
+        "bagaimana periode pelaksanaan program kampus mengajar?",
+        "periode dari program kampus mengajar"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester"
+      ]
+    },
+    {
+      "tag":"pendaftaran_kampus_mengajar",
+      "patterns": [
+        "bagaimana cara mendaftar kampus mengajar?",
+        "cara mendaftar program kampus mengajar",
+        "bagaimana cara daftar program kampus mengajar?"
+      ],
+      "responses": [
+       "Cara mendaftarnya dengan mengunjungi website https://kampusmerdeka.kemdikbud.go.id/program/mengajar" 
+      ]
+    },
+    {
+      "tag": "manfaat_kampus_mengajar",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Kampus Mengajar?",
+        "manfaat dari kampus mengajar",
+        "apa saja manfaat ikut program kampus mengajar?",
+        "apa manfaat dari program kampus mengajar?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu mendapatkan bantuan biaya hidup serta UKT (bagi yang tidak sedang menerima bantuan pemerintah lainnya), mengasah kepemimpinan, kreativitas, pemecahan masalah, inovasi, serta terlibat langsung dalam pembelajaran di jenjang SD dan SMP"
+      ]
+    },
+    {
+      "tag": "penjelasan_IISMA",
+      "patterns": [
+        "Apa itu IISMA?",
+        "jelaskan apa itu IISMA?",
+        "IISMA itu apa ya?",
+        "apa itu iisma?"
+      ],
+      "responses": [
+        "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri"
+      ]
+    },
+    {
+      "tag": "persyaratan_IISMA",
+      "patterns": [
+        "Apa saja persyaratan IISMA?",
+        "syarat dari program IISMA",
+        "apa saja syarat ikut IISMA?",
+        "apa saja syarat ikut program IISMA?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 4 hingga 6, maksimal berumur 23 tahun, memiliki IPK minimal 3.00, memiliki score IELTS - 6.0, TOEFL iBT - 78, Duolingo English Test - 100, mendapatkan surat rekomendasi Perguruan Tinggi, serta belum pernah mengikuti program IISMA maupun beasiswa LPDP"
+      ]
+    },
+    {
+      "tag": "manfaat_IISMA",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti IISMA?",
+        "manfaat yang didapat jika ikut program IISMA?",
+        "apa manfaat dari program IISMA?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya pendaftaran, pendidikan, serta biaya hidup selama 1 semester, test PCR, karantina, visa, transport, dan asuransi kesehatan"
+      ]
+    },
+    {
+      "tag": "periode_IISMA",
+      "patterns": [
+        "Bagaimana periode pelaksanaan dan cara mendaftar program IISMA?"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester"
+      ]
+    },
+    {
+      "tag": "pendaftaran_IISMA",
+      "patterns": [
+        "bagaimana cara daftar program IISMA?",
+        "cara mendaftar program IISMA"
+      ],
+      "responses": [
+        "Cara mendaftarnya dengan mengunjungi laman https://iisma.kemdikbud.go.id/"
+      ]
+    },
+    {
+      "tag": "mitra_IISMA",
+      "patterns": [
+        "Apa saja universitas yang tergabung dalam program IISMA?",
+        "mitra apa saja yang tergabung program IISMA?",
+        "apa saja universitas yang tergabung program IISMA?"
+      ],
+      "responses": [
+        "Universitas yang tergabung seperti Boston University, Monash University, Nanyang University, University of Birmingham, dsb. Info lebih lanjut melalui laman https://site.iisma.id/host-universities-list"
+      ]
+    },
+    {
+      "tag": "penjelasan_pertukaran_mahasiswa_merdeka",
+      "patterns": [
+        "Apa itu Pertukaran Mahasiswa Merdeka?",
+        "apa itu pertukaran mahasiswa merdeka?",
+        "pertukaran mahasiswa merdeka itu apa?",
+        "jelaskan pertukaran mahasiswa merdeka"
+      ],
+      "responses": [
+        "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa"
+      ]
+    },
+    {
+      "tag": "persyaratan_pertukaran_mahasiswa_merdeka",
+      "patterns": [
+        "Apa saja persyaratan Pertukaran Mahasiswa Merdeka?",
+        "apa saja syarat ikut pertukaran mahasiswa merdeka?",
+        "syarat yang diperlukan untuk program pertukaran mahasiswa?",
+        "apa saja syarat mengikuti program pertukaran mahasiswa merdeka?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif semester 3, 5, dan 7, memiliki IPK minimal 2.75, memiliki pengalaman prestasi non-akademik tingkat daerah/nasional/internasional, tidak pernah dikenakan sanksi akademik maupun non-akademik, serta mendapatkan surat rekomendasi dari Perguruan Tinggi dan izin orang tua"
+      ]
+    },
+    {
+      "tag": "periode_pertukaran_mahasiswa_merdeka",
+      "patterns": [
+        "bagaimana periode pelaksanaan program Pertukaran Mahasiswa Merdeka?",
+        "bagaimana periode pelaksanaan program pertukaran mahsiswa merdeka?",
+        "periode pelaksanaan"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester"
+      ]
+    },
+    {
+      "tag":"pendaftaran_pertukaran_mahasiswa_merdeka",
+      "patterns": [
+        "bagaimana cara mendaftar pertukaran mahasiswa?",
+        "cara mendaftar program pertukaran mahasiswa",
+        "bagaimana cara daftar program pertukaran mahasiswa?"
+      ],
+      "responses": [
+       "Cara mendaftarnya dengan mengunjungi website https://pmm.kampusmerdeka.kemdikbud.go.id/pages/info/program/pmm_4/" 
+      ]
+    },
+    {
+      "tag": "manfaat_pertukaran_mahasiswa_merdeka",
+      "patterns": [
+        "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?",
+        "manfaat dari program pertukaran mahasiswa merdeka",
+        "apa manfaat ikut program pertukaran mahasiswa merdeka?",
+        "apa saja manfaat mengikuti pertukaran mahasiswa merdeka?"
+      ],
+      "responses": [
+        "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya hidup dan UKT, transport pulang-pergi ke kampus tujuan, dan biaya rapid pulang-pergi"
+      ]
+    },
+    {
+      "tag": "penjelasan_wirausaha_merdeka",
+      "patterns": [
+        "apa itu wirausaha merdeka?",
+        "wirausaha merdeka itu apa ya?",
+        "jelaskan apa itu wirausaha merdeka"
+      ],
+      "responses": [
+        "Wirausaha Merdeka adalah bagian dari program Kampus Merdeka Kementrian Pendidikan, Kebudayaan, Riset, dan Teknologi Indonesia yang memberikan kesempatan kepada mahasiswa belajar dan mengembangkan diri menjadi calon wirausahawan melalui aktivitas di luar kelas perkuliahan"
+      ]
+    },
+    {
+      "tag": "persyaratan_wirausaha_merdeka",
+      "patterns": [
+        "apa saja persyaratan wirausaha merdeka?",
+        "apa saja syarat program wirausaha merdeka?",        
+        "persyaratan dari program wirausaha merdeka?"
+      ],
+      "responses": [
+        "Merupakan mahasiswa aktif jenjang pendidikan D2, D3, D4, dan S1 minimal semester 3, S2 dan S3 tanpa batasan semester. Tidak sedang menyusun skripsi ataupun tugas akhir, tidak mengambil mata kuliah selama mengikuti program, memperoleh surat rekomendasi dari KAPRODI dan pimpinan PT bidang akademik, bersedia mengikuti penuh(satu semester) dibuktikan dengan surat pernyataan mahasiswa"
+      ]
+    },
+    {
+      "tag": "periode_wirausaha_merdeka",
+      "patterns": [
+        "bagaimana periode pelaksanaan program wirausaha merdeka?",
+        "periode dari program wirausaha merdeka"
+      ],
+      "responses": [
+        "Program berlangsung selama 1 semester"
+      ]
+    },
+    {
+      "tag": "pendaftaran_wirausaha_merdeka",
+      "patterns": [
+        "bagaimana cara daftar program wirausaha merdeka?",
+        "cara mendaftar program wirausaha merdeka"
+      ],
+      "responses": [
+        "Cara mendaftarnya dengan mengunjungi laman https://wirausahamerdeka.kampusmerdeka.kemdikbud.go.id/info/"
+      ]
+    },
+    {
+      "tag": "tujuan_wirausaha_merdeka",
+      "patterns": [
+        "apa saja tujuan dari program wirausaha merdeka?",
+        "apa tujuan dari wirausaha merdeka?",
+        "tujuan dari wirausaha merdeka"
+      ],
+      "responses": [
+        "Memantik minat dan semangat mahasiswa dalam berwirausaha, menanamkan mindset dan kompetensi dasar di bidang kewirausahaan, mendorong peningkatan pengalaman wirausaha mahasiswa, meningkatkan kemampuan daya kerja mahasiswa, dan membantu meningkatkan kapasitas dan kualitas lulusan peruguran tinggi"
+      ]
+    }
+  ]
+}
